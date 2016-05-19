@@ -1,26 +1,38 @@
 {
-  "name": "ATUi",
-  "version": "1.0.0",
-  "description": "this is admin template ui",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "admin-lte",
+  "version": "2.3.3",
+  "main": "dist/js/app.min.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/EmptyCup20/ATUi.git"
+    "url": "git://github.com/almasaeed2010/AdminLTE.git"
   },
-  "author": "lisanchuan",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/EmptyCup20/ATUi/issues"
-  },
-  "homepage": "https://github.com/EmptyCup20/ATUi",
+  "license": "MIT",
   "devDependencies": {
-    "body-parser": "^1.14.2",
-    "cookie-parser": "^1.4.0",
-    "ejs": "^2.3.4",
-    "express": "^4.13.3",
-    "morgan": "^1.6.1"
+    "R2": "^1.4.3",
+    "grunt": "~0.4.5",
+    "grunt-bootlint": "^0.9.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-csslint": "^0.5.0",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-less": "^0.12.0",
+    "grunt-contrib-uglify": "^0.7.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-cssjanus": "^0.2.4",
+    "grunt-image": "^1.0.5",
+    "grunt-includes": "^0.4.5"
+  },
+  "dependencies": {
+    "browser-sync": "^2.12.5",
+    "connect": "^3.4.1",
+    "dev-ip": "^1.0.1",
+    "easy-extender": "^2.3.2",
+    "immutable": "^3.8.1",
+    "portscanner": "^1.0.0",
+    "qs": "^6.2.0",
+    "resp-modifier": "^6.0.0",
+    "serve-static": "^1.10.2",
+    "ua-parser-js": "^0.7.10"
   }
 }

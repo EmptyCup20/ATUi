@@ -1,5 +1,5 @@
 var express = require('express')
-    , routes = require('./routes')
+//, routes = require('./routes')
     , bodyParser = require('body-parser')
     , cookieParser = require('cookie-parser')
     , logger = require('morgan')
@@ -18,16 +18,19 @@ app.set('view engine', 'html');
 
 app.use(logger('dev'));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({extended: false}));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, '')));
+app.use(express.static(path.join(__dirname, 'dist')));
 
-app.use(function(req, res, next) {
-    res.render(req.originalUrl);
+app.use(function (req, res, next) {
+    var url = req.originalUrl.substr(1, req.originalUrl.length - 1)
+    res.render(url, {
+        title : "ATUi"
+    });
 });
 
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
     var err = new Error('Not Found');
     err.status = 404;
     next(err);
@@ -37,6 +40,6 @@ app.use(function(req, res, next) {
 var server = http.createServer(app);
 
 //启动server
-server.listen(app.get('port'), function(){
+server.listen(app.get('port'), function () {
     console.log('Express server listening on port ' + app.get('port'));
 });

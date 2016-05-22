@@ -5,7 +5,8 @@ var express = require('express')
     , logger = require('morgan')
     , http = require('http')
     , path = require('path')
-    , ejs = require('ejs');
+    , ejs = require('ejs')
+    , lang = require('./lang/lang_CH');
 
 var app = express();
 
@@ -24,9 +25,7 @@ app.use(express.static(path.join(__dirname, 'dist')));
 
 app.use(function (req, res, next) {
     var url = req.originalUrl.substr(1, req.originalUrl.length - 1)
-    res.render(url, {
-        title : "ATUi"
-    });
+    res.render(url, lang);
 });
 
 // catch 404 and forward to error handler

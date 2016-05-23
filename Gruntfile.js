@@ -140,11 +140,10 @@ module.exports = function (grunt) {
             dev: {
                 bsFiles: {
                     src: [
-                        'hiklyui/css/*.css',
                         'dist/css/*.css',
                         'dist/css/skins/*.css',
-                        'hiklyui/pages/*.html',
-                        'hiklyui/*.html'
+                        'pages/*.html',
+                        'pages/*/*.html'
                     ]
                 },
 

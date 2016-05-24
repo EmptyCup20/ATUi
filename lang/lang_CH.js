@@ -33,6 +33,7 @@ module.exports = {
     GeneralElements: "通用表单元素",
     AdvancedElements: "拓展表单元素",
     Editors: "编辑表单元素",
-    Calendar:"日历",
-    Mailbox:"邮件"
+    Calendar: "日历",
+    Mailbox: "邮件",
+    Examples: "常用页面样例"
 };

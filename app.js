@@ -6,7 +6,8 @@ var express = require('express')
     , http = require('http')
     , path = require('path')
     , ejs = require('ejs')
-    , lang = require('./lang/lang_CH');
+    , URL = require('url')
+    , session = require("express-session");;
 
 var app = express();
 
@@ -21,10 +22,27 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(cookieParser());
+
+app.use(cookieParser());
+app.use(session({
+    secret: 'ATUi'
+}))
+
 app.use(express.static(path.join(__dirname, 'dist')));
 
 app.use(function (req, res, next) {
     var url = req.originalUrl.substr(1, req.originalUrl.length - 1)
+    var arg = URL.parse(req.url, true).query;
+
+    //多语言控制加载方式 xx
+    if(arg.lang) {
+        req.session.lang = arg.lang;
+        url = "";
+    }
+    if(!req.session.lang){
+        req.session.lang = "CH";
+    }
+    var lang =  require('./lang/lang_' + req.session.lang);
     res.render(url, lang);
 });
 

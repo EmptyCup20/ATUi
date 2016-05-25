@@ -5,6 +5,9 @@ module.exports = {
     //commom
     Home: "Home",
     title: "ATUi",
+    language: "language",
+    English: "English",
+    China: "China",
     //header
     //aside
     Dashboard: "Dashboard",
@@ -33,7 +36,8 @@ module.exports = {
     UIElements: "UI Elements",
     Forms: "Forms",
     Tables: "Tables",
-    //Simple tables
     Simpletables: "Simple tables",
+    Datatables : "Data tables",
+    //Simple tables
     previewofsimpletables: "preview of simple tables"
 };

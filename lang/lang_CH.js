@@ -5,6 +5,9 @@ module.exports = {
     //commom
     Home: "主页",
     title: "ATUi",
+    language: "语言",
+    English: "英语",
+    China: "中文",
     //header
     //aside
     Dashboard: "样例展示",
@@ -33,7 +36,8 @@ module.exports = {
     UIElements: "UI组件",
     Forms: "表单",
     Tables: "列表",
+    Simpletables: "基本表格",
+    Datatables : "Data tables",
     //Simple tables
-    Simpletables: "简单表单",
     previewofsimpletables: "表单一览"
 };

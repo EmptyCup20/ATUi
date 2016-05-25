@@ -7,16 +7,6 @@ module.exports = {
     title: "ATUi",
     //header
     //aside
-    Online: "在线",
-    Search: "搜索",
-    MAINNAVIGATION: "导航栏",
-    Charts: "图标",
-    UIElements: "UI组件",
-    Forms: "表单",
-    Tables: "列表",
-    //Simple tables
-    Simpletables: "简单表单",
-    previewofsimpletables: "表单一览",
     Dashboard: "样例展示",
     LayoutOptions: "常用布局",
     TopNavigationLayout: "顶部导航布局",
@@ -35,5 +25,15 @@ module.exports = {
     Editors: "编辑表单元素",
     Calendar: "日历",
     Mailbox: "邮件",
-    Examples: "常用页面样例"
+    Examples: "常用页面样例",
+    Online: "在线",
+    Search: "搜索",
+    MAINNAVIGATION: "导航栏",
+    Charts: "图标",
+    UIElements: "UI组件",
+    Forms: "表单",
+    Tables: "列表",
+    //Simple tables
+    Simpletables: "简单表单",
+    previewofsimpletables: "表单一览"
 };

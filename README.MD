@@ -1,6 +1,8 @@
 基于AdminLTE拓展编写组件库
 ============
 
+参考:http://ant.design/#/
+
 
 **I apologize to everyone for my slow rate of response and development recently.** This is my final semester and I am very busy. Although I usually work on AdminLTE a few hours a week, there are weeks full of exams and assignments. Thanks for your understanding.
 

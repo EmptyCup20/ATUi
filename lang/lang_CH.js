@@ -8,6 +8,7 @@ module.exports = {
     language: "语言",
     English: "英语",
     China: "中文",
+    and : "和",
     //header
     //aside
     Dashboard: "样例展示",
@@ -38,6 +39,49 @@ module.exports = {
     Tables: "列表",
     Simpletables: "基本表格",
     Datatables : "Data tables",
+    //general
+    General: "通用",
+    PreviewofUIelements : "通用UI一览",
+    ColorPalette : "调色板",
+    Alerts : "警告框",
+    Callouts : "标注",
+    Tabs : "选项卡",
+    ProgressBars: "进度条",
+    DifferentSizes : "各种大小",
+    Vertical : "纵向",
+    CollapsibleAccordion:"折叠框",
+    Accordion : "折叠框",
+    Carousel : "走马灯",
+    Typography : "其他格式",
+    Headlines : "标题",
+    TextEmphasis : "强调文字",
+    BlockQuotes : "代码片段",
+    BlockQuotesPulledRight : "靠右代码片段",
+    UnorderedList : "无序列表",
+    OrderedLists : "有序列表",
+    UnstyledList : "无样式列表",
+    Description : "描述",
+    DescriptionHorizontal : "描述",
+    //Buttons
+    Buttons : "按钮",
+    Varioustypesofbuttons : "各种类型按钮",
+    Usingthebaseclass : "使用class",
+    BlockButtons : "块级按钮",
+    ApplicationButtons : "应用按钮",
+    HorizontalButtonGroup :　"横向按钮组",
+    Differentcolors : "各种颜色",
+    ButtonAddon : "按钮插件",
+    VerticalButtonGroup : "纵向按钮组",
+    Splitbuttons : "工具栏按钮",
+    SocialButtons : "社交按钮",
+    //Sliders
+    Sliders : "滑块",
+    IonSlider : "离子滑块",
+    //Timeline
+    Timeline : "时间轴",
+    TimelineMarkup : "时间轴代码",
+    //Modals
+    Modals  : "模态框",
     //Simple tables
     previewofsimpletables: "表单一览"
 };

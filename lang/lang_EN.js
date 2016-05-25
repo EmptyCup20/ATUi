@@ -8,6 +8,7 @@ module.exports = {
     language: "language",
     English: "English",
     China: "China",
+    and : "and",
     //header
     //aside
     Dashboard: "Dashboard",
@@ -38,6 +39,49 @@ module.exports = {
     Tables: "Tables",
     Simpletables: "Simple tables",
     Datatables : "Data tables",
+    //general
+    General: "General",
+    PreviewofUIelements : "Preview of UI elements",
+    ColorPalette : "Color Palette",
+    Alerts : "Alerts",
+    Callouts : "Callouts",
+    Tabs : "Tabs",
+    ProgressBars: "Progress Bars",
+    DifferentSizes : "Different Sizes",
+    Vertical : "Vertical",
+    CollapsibleAccordion:"Collapsible Accordion",
+    Accordion : "Accordion",
+    Carousel : "Carousel",
+    Typography : "Typography",
+    Headlines : "Headlines",
+    TextEmphasis : "Text Emphasis",
+    BlockQuotes : "Block Quotes",
+    BlockQuotesPulledRight : "Block Quotes Pulled Right",
+    UnorderedList : "Unordered List",
+    OrderedLists : "Ordered Lists",
+    UnstyledList : "Unstyled List",
+    Description : "Description",
+    DescriptionHorizontal : "Description Horizontal",
+    //Buttons
+    Buttons : "Buttons",
+    Varioustypesofbuttons : "Various types of buttons",
+    Usingthebaseclass : "Using the base class",
+    BlockButtons : "Block Buttons",
+    ApplicationButtons : "Application Buttons",
+    HorizontalButtonGroup :　"Horizontal Button Group",
+    Differentcolors : "Different colors",
+    ButtonAddon : "Button Addon",
+    VerticalButtonGroup : "Vertical Button Group",
+    Splitbuttons : "Split buttons",
+    SocialButtons : "Social Buttons",
+    //Sliders
+    Sliders : "Sliders",
+    IonSlider : "Ion Slider",
+    //Timeline
+    Timeline : "Timeline",
+    TimelineMarkup : "Timeline Markup",
+    //Modals
+    Modals  : "Modals",
     //Simple tables
     previewofsimpletables: "preview of simple tables"
 };
